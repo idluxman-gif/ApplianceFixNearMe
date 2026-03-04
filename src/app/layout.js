@@ -2,6 +2,8 @@ import Script from 'next/script';
 import SiteFooter from '@/components/SiteFooter';
 
 export const metadata = {
+  metadataBase: new URL('https://www.appliancefixnearme.com'),
+  alternates: { canonical: '/' },
   title: "Find Trusted Appliance Repair Shops Near You | ApplianceFixNearMe.com",
   description: "Find trusted appliance repair shops near you. Browse verified repair services for refrigerators, washers, dryers, dishwashers, and more across all 50 states.",
   keywords: "appliance repair near me, appliance fix near me, refrigerator repair, washer repair, dryer repair, dishwasher repair, appliance service",
